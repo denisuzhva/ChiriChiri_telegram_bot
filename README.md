@@ -3,4 +3,7 @@ An image processing telegram bot.
 
 Write me: @ChiriChiriBot
 
-Bot code: https://glitch.com/~chirichiri-telegram-bot
+Current commands:
+* /start
+
+Bot code on the Glitch cloud: https://glitch.com/~chirichiri-telegram-bot
