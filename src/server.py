@@ -1,4 +1,6 @@
-# server.py# import the required libraries
+# server.py
+
+# import the required libraries
 import flask, telebot
 
 # import the bot.py file

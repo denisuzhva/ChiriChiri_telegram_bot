@@ -3,6 +3,8 @@
 # import required libraries
 import telebot
 import requests
+
+# import environ to get token and project name from .env
 from os import environ 
 
 # setup bot with Telegram token from .env
