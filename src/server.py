@@ -1,9 +1,8 @@
-# server.py
+### server.py
 
-# import the required libraries
+
+
 import flask, telebot
-
-# import the bot.py file
 from bot import bot
 
 
@@ -16,7 +15,6 @@ WEBHOOK_URL_PATH = "/{}".format(bot.token)
 
 # web server webhook route
 @app.route(WEBHOOK_URL_PATH, methods=['POST'])
-
 def webhook():
     if flask.request.headers.get('content-type') == 'application/json':
         json_string = flask.request.get_data().decode('utf-8')
