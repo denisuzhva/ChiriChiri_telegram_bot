@@ -54,8 +54,11 @@ def process_photo(message):
         file_id = msg_img[-1].file_id
         img_info = bot.get_file(file_id)
         img_byte = bot.download_file(img_info.file_path)
-        img_byte_new = iproc.process_byte(img_byte, proc_cmd)
-        bot.send_photo(chat_id, img_byte_new, reply_to_message_id=message.message_id)
+        img_byte_new, errors, log = iproc.process_byte(img_byte, proc_cmd, proc_args)
+        if errors:
+            bot.send_message(chat_id, log, reply_to_message_id=message.message_id)
+        else:
+            bot.send_photo(chat_id, img_byte_new, reply_to_message_id=message.message_id)
         
         
     
