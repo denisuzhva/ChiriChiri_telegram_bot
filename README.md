@@ -10,5 +10,6 @@ Current commands:
 * /bgt - adjust brightness
 * /sat - make different saturation
 * /shp - sharpen
+* /w2x - double the resolution of an image using AI enlarger from deepai.org
 
 Bot code on the Glitch cloud: https://glitch.com/~chirichiri-telegram-bot
