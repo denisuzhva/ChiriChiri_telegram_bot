@@ -11,5 +11,8 @@ Current commands:
 * /sat - make different saturation
 * /shp - sharpen
 * /w2x - double the resolution of an image using AI enlarger from deepai.org
+* /col - colorize a grayscale image
+* /cap - generate caption
+* /drm - deep dream
 
 Bot code on the Glitch cloud: https://glitch.com/~chirichiri-telegram-bot
